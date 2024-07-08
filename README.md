@@ -1,5 +1,5 @@
 # corgi  
-[![Go](https://github.com/keepchen/corgi/actions/workflows/go.yml/badge.svg)](https://github.com/keepchen/corgi/actions/workflows/go.yml)  [![CodeQL](https://github.com/keepchen/corgi/actions/workflows/codeql.yml/badge.svg)](https://github.com/keepchen/corgi/actions/workflows/codeql.yml)  [![Go Report Card](https://goreportcard.com/badge/github.com/keepchen/corgi/v3)](https://goreportcard.com/report/github.com/keepchen/go-sail/v3)  
+[![Go](https://github.com/keepchen/corgi/actions/workflows/go.yml/badge.svg)](https://github.com/keepchen/corgi/actions/workflows/go.yml)  [![CodeQL](https://github.com/keepchen/corgi/actions/workflows/codeql.yml/badge.svg)](https://github.com/keepchen/corgi/actions/workflows/codeql.yml)  [![Go Report Card](https://goreportcard.com/badge/github.com/keepchen/corgi/v3)](https://goreportcard.com/report/github.com/keepchen/corgi)  
 A distributed lock via redis written in Go.
 
 ### Requirement
