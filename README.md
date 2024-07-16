@@ -27,6 +27,12 @@ corgi.SetRedisProviderCluster(...)
 
 //or
 corgi.SetRedisProviderFailOver(...)
+
+//or
+corgi.SetRedisProviderClient(...)
+
+//or
+corgi.SetRedisProviderClusterClient(...)
 ```  
 #### Lock
 ```go

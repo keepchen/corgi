@@ -51,6 +51,20 @@ func SetRedisProviderFailOver(opt *redisLib.FailoverOptions) {
 	})
 }
 
+// SetRedisProviderClient 设置redis连接实例(单实例)
+func SetRedisProviderClient(client *redisLib.Client) {
+	doOnce.Do(func() {
+		lockDriver.client = client
+	})
+}
+
+// SetRedisProviderClusterClient 设置redis连接实例(cluster集群)
+func SetRedisProviderClusterClient(client *redisLib.ClusterClient) {
+	doOnce.Do(func() {
+		lockDriver.clusterClient = client
+	})
+}
+
 func initClient(opt *redisLib.Options) {
 	rdb := redisLib.NewClient(opt)
 
